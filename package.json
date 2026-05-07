@@ -1,17 +1,14 @@
 {
-  "name": "timeout",
+  "name": "timeoutbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discord timeout ban bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "discord.js": "^14.26.4",
-    "dotenv": "^17.4.2"
+    "discord.js": "^14.19.3",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
   }
 }
